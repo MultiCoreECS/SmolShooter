@@ -608,7 +608,7 @@ fn main() {
                     closed = true;
                     return;
                 },
-                Event::DeviceEvent {event: DeviceEvent::Key(KeyboardInput{virtual_keycode, state,  ..}, ..), ..} =>{
+                Event::WindowEvent {event: WindowEvent::KeyboardInput{input: KeyboardInput{virtual_keycode, state, ..}, ..}, ..} =>{
                     match virtual_keycode{
                         Some(key) => {
                             match state{
