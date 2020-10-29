@@ -1,4 +1,4 @@
-use glium::{backend::glutin::raw::Raw, Surface};
+use glium::{Surface};
 use glium::*;
 use glium::backend::Facade;
 use glutin::{event_loop::EventLoop, event::{Event, WindowEvent, VirtualKeyCode, KeyboardInput, DeviceEvent}};

@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 SmolECS = {git = "https://github.com/MultiCoreECS/SmolECS"}
-glutin = {git = "https://github.com/jamescarterbell/glutin"}
-glium = {git = "https://github.com/jamescarterbell/glium"}
+glutin = "0.25.1"
+glium = "0.28.0"
 rand = "0.7.3"
 image = "*"
