@@ -1,0 +1,14 @@
+[package]
+name = "SmolShooter"
+version = "0.1.0"
+authors = ["James <jamescarterbell@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+SmolECS = {git = "https://github.com/MultiCoreECS/SmolECS"}
+glutin = {git = "https://github.com/jamescarterbell/glutin"}
+glium = {git = "https://github.com/jamescarterbell/glium"}
+rand = "0.7.3"
+image = "*"
